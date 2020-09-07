@@ -1,0 +1,95 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  /* margin: 0; */
+  /* padding: 0; */
+}
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    150deg,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(160, 0, 0, 1) 100%
+  );
+  margin: 0;
+  padding: 3rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+/* .container { */
+/* margin: 0; */
+/* padding: 0; */
+/* width: 100%; */
+/* height: 100%; */
+/* background: #000; */
+/* border: 1px inset ghostwhite; */
+/* border-radius: 1.5rem; */
+/* display: flex; */
+/* flex-direction: column; */
+/* justify-content: flex-start; */
+/* align-items: center; */
+/* } */
+.queue {
+  margin: 1rem 0 0;
+  /* border: 1px solid black; */
+  border-radius: 1rem;
+  width: 300px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    150deg,
+    rgba(214, 0, 0, 1) 100% rgba(0, 0, 0, 1) 20%
+  );
+}
+h1,
+h2 {
+  text-align: center;
+  color: ghostwhite;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    174deg,
+    rgba(170, 170, 170, 0.2) 0%,
+    rgba(214, 0, 0, 0.1) 100%
+  );
+}
+h1 {
+  /* background-color: rgba(214, 0, 0, 1); */
+  margin: 0 auto;
+  width: 294px;
+  border-radius: 1rem;
+  border: 1px outset rgba(220, 220, 220, 0.6);
+  font-size: 1.5rem;
+  padding: 0.2rem;
+}
+h2 {
+  /* background-color: rgb(170, 170, 170); */
+  margin: 0 auto;
+  padding: 0.1rem 0 0.4rem;
+  border-radius: 1rem 1rem 0 0;
+  border-top: 1px inset rgba(220, 220, 220, 0.6);
+  border-right: 1px inset rgba(220, 220, 220, 0.6);
+  border-left: 1px inset rgba(220, 220, 220, 0.6);
+  font-size: 1.3rem;
+}
+ol {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    -20deg,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(214, 0, 0, 0.5) 100%
+  );
+  border-radius: 0 0 1rem 1rem;
+  border-top: 1.5px inset rgba(220, 220, 220, 0.6);
+  border-right: 1px inset rgba(220, 220, 220, 0.6);
+  border-bottom: 1px inset rgba(220, 220, 220, 0.6);
+  border-left: 1px inset rgba(220, 220, 220, 0.6);
+  margin: 0 0;
+  padding: 0.5rem 0 0.7rem 3rem;
+  font-weight: bold;
+}
+li {
+  font-size: 1rem;
+  color: ghostwhite;
+}
